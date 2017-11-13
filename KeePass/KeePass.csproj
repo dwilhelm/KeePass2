@@ -10,8 +10,9 @@
     <RootNamespace>KeePass</RootNamespace>
     <AssemblyName>KeePass</AssemblyName>
     <ApplicationIcon>KeePass.ico</ApplicationIcon>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>KeePass.pfx</AssemblyOriginatorKeyFile>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -1355,7 +1356,6 @@
     <None Include="Resources\Nuvola_Derived\B16x16_File_SaveAll_Disabled.png" />
     <None Include="Resources\Images\B16x16_Imp_Steganos.png" />
     <None Include="Resources\Images\B16x16_Imp_Whisper32.png" />
-    <None Include="KeePass.pfx" />
     <None Include="Resources\Nuvola\B16x16_Folder_Inbox.png" />
     <None Include="Resources\Images\B16x16_Imp_Security.png" />
     <None Include="Resources\Images\B16x16_Imp_PwSafe.png" />
